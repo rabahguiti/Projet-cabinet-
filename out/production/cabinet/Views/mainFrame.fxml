@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="632.0" prefWidth="1067.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.Controller">
+   <children>
+      <VBox prefHeight="632.0" prefWidth="159.0" style="-fx-background-color: #faf3dd;">
+         <children>
+            <Pane prefHeight="268.0" prefWidth="159.0" />
+            <Button mnemonicParsing="false" onAction="#loadScreenRDV" prefHeight="37.0" prefWidth="159.0" text="Rendez-vous" />
+            <Button mnemonicParsing="false" onAction="#loadScreenPatients" prefHeight="37.0" prefWidth="159.0" text="Patients" />
+            <Button mnemonicParsing="false" onAction="#loadScreenDoctors" prefHeight="37.0" prefWidth="159.0" text="Docteurs" />
+         </children>
+      </VBox>
+      <StackPane fx:id="contentRegion" prefHeight="632.0" prefWidth="908.0" HBox.hgrow="ALWAYS" />
+   </children>
+</HBox>
